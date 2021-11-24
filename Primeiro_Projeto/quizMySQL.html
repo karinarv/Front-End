@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuiz</title>
+</head>
+
+<body>
+    <h1>Vamos testar seu conhecimento em Banco de dados?</h1>
+    <h2>Responda as questões abaixo</h2>
+
+    <fieldset>
+        <legend>Quiz MySQL</legend>
+        <ol>
+        <br>
+            <h4><li>Um SGBD é um sistema responsável por realizar o gerenciamento de um banco de dados, com recursos que permitem a
+            manipulação das informações e a interação com os usuários do sistema. Dentre as seguintes alternativas, qual apresenta
+            apenas sistemas específicos de SGBD?</li></h4>
+            <input type="radio" name="q2" value="wrong">SQL Server, Oracle, REST e GIT<br>
+            <input type="radio" name="q2" value="wrong">React, .NET, MySQL e SQL Server<br>
+            <input type="radio" name="q2" value="right">MySQL, Oracle, SQL Server e Acess<br>
+            <input type="radio" name="q2" value="wrong">Acess, CSS, Oracle e VueJS<br>
+    
+            <br>
+            <h4><li>Olhe a imagem abaixo e responda</li></h4>
+            <img src="Questão2_Banco.png" alt="Essa imagem mostra o código da criação da tabela em MySQL">
+            <br>
+            <p>Para que ela fosse criada com o campo idConsumidor auto incrementável, a declaração idConsumidor 
+            INT NOT NULL teria que mudar para </p>
+            <input type="radio" name="q3" value="wrong">idConsumidor INT NOT NULL IDENTITY(1,1)br>
+            <input type="radio" name="q3" value="wrong">idConsumidor++ INT NOT NULL<br>
+            <input type="radio" name="q3" value="wrong">idConsumidor INT NOT NULL INCREMENT BY 1<br>
+            <input type="radio" name="q3" value="right">idConsumidor INT NOT NULL AUTO_INCREMENT<br>
+            <br>
+
+            <h4><li>Um programador está criando uma tabela em um banco de dados MySQL 5.5 e
+            precisa criar um campo que suporte o armazenamento de valores na faixa de -2147483648 a 2147483647.
+            Poderá escolher dois campo do tipo </li></h4>
+            <label><INPUT TYPE="checkbox" NAME="q1" VALUE="wrong">VARCHAR<BR></label>
+            <label><INPUT TYPE="checkbox" NAME="q2" VALUE="right">INT<BR></label>
+            <label><INPUT TYPE="checkbox" NAME="q3" VALUE="right">BIGINT<BR></label>
+            <label><INPUT TYPE="checkbox" NAME="q4" VALUE="wrong">SMALLINT<BR></label>
+            <br>
+
+            <h4><li>Olhe a imagem abaixo e responda</li></h4>
+            <img src="Questão3_Banco.png" alt="Essa imagem mostra um código sobre select no MySQL">
+            <br>
+            <p>Desse último comando SELECT, retornará como resultado a dupla: </p>
+            <input type="radio" name="q3" value="wrong">xx, 4<br>
+            <input type="radio" name="q3" value="wrong">yy, 2<br>
+            <input type="radio" name="q3" value="right">xx, 3<br>
+            <input type="radio" name="q3" value="wrong">yy, 3<br>
+            <br>
+        </ol>
+    </fieldset>
+
+    <br>
+    <form action="finalMySQL.html">
+        <input type="submit" value="Finalizar Teste" />
+    </form>
+    <form action="index.html">
+        <input type="submit" value="Voltar" />
+    </form>
+
+
+
+</body>
+
+</html>
