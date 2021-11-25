@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+    height: 100%;
+    background-image: linear-gradient(to left,#e6f5f5,#7EF0F2 , #35EDF0 , #7EF0F2 , #e6f5f5); 
+    background-attachment: fixed;
+}
+main{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+img{
+    width:50%;
+    padding: auto;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(9, 107, 163);
+    font: Arial, sans-serif;
+}
+h3{
+     color: rgb(6, 76, 117);
+     padding: 10px;
+}
+form{
+    display: inline;
+    padding: 5px 5px;
+}

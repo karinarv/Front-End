@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevQuiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Boa Tarde, sejam bem-vindes ao DevQuiz</h1>
-    <img src="imagens/bem_vindes.jpg" alt="Imagem Bem-vindes" width="500" height="300">
-    <h3>Nossa proposta é fornecer alguns conhecimentos sobre as linguagem de programação,<br>
-        escolha um botão para começar.</h3>
-    <form action="quizJava.html">
-        <input type="submit" value="Teste de Java" />
-    </form><br>
-    <form action="quizMySQL.html">
-        <input type="submit" value="Teste de MySQL" />
-    </form>
+    <main>
+        <h1>Olá, sejam bem-vindes ao DevQuiz!</h1>
+        <picture>
+            <source media = "(max-width:800px)" src= "imagens/developers.gif">
+            <img src="imagens/developers.gif" alt="Imagem de um desenvolvedor">
+        </picture>
+        <h3>Nossa proposta é testar alguns conhecimentos sobre as linguagem de programação.<br>
+        Escolha um botão para começar o teste.</h3>
+        <form action="quizJava.html">
+            <input type="submit" value="Teste de Java" />
+        </form>
+        <form action="quizMySQL.html">
+            <input type="submit" value="Teste de MySQL" />
+        </form>
+    </main>
     
 </body>
 </html>
