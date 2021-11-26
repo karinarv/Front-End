@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevQuiz</title>
-    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="css/styleform.css">
 </head>
 
 <body>
@@ -25,9 +25,7 @@
                 <label><input type="radio" name="q2" value="wrong">React, .NET, MySQL e SQL Server</label>
                 <label><input type="radio" name="q2" value="right">MySQL, Oracle, SQL Server e Acess</label>
                 <label><input type="radio" name="q2" value="wrong">Acess, CSS, Oracle e VueJS</label>
-                
-        
-                
+    
                 <h4><li>Olhe a imagem abaixo e responda</li></h4>
                 <img src="imagens/Questão2_Banco.png" alt="Essa imagem mostra o código da criação da tabela em MySQL">
                 
@@ -59,15 +57,14 @@
         </fieldset>
 
         <br>
-        <form action="finalMySQL.html">
-            <input type="submit" value="Finalizar Teste" />
+        <form id="btnIdFinalMySQL" action="finalMySQL.html">
+            <input type="button"  onclick="btnFinalMySQL()" value="Finalizar Teste" />
         </form>
-        <form action="index.html">
-            <input type="submit" value="Voltar" />
+        <form id="btnHome" action="index.html">
+            <input type="button" onclick="btnHome()" value="Voltar" />
         </form>
     </main>
-
-
+    <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 

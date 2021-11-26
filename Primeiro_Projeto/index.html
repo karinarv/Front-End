@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevQuiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
@@ -16,13 +16,13 @@
         </picture>
         <h3>Nossa proposta é testar alguns conhecimentos sobre as linguagem de programação.<br>
         Escolha um botão para começar o teste.</h3>
-        <form action="quizJava.html">
-            <input type="submit" value="Teste de Java" />
+        <form id="btnClickJava" action= "quizJava.html" >
+            <input type="button" onclick="btnJava()" value="Teste de Java" />
         </form>
-        <form action="quizMySQL.html">
-            <input type="submit" value="Teste de MySQL" />
+        <form id="btnClickMySQL" action="quizMySQL.html">
+            <input type="button" onclick="btnMySQL()" value="Teste de MySQL" />
         </form>
     </main>
-    
+    <script type="text/javascript" src="js/script.js" ></script>
 </body>
 </html>

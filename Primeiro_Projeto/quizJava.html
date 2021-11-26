@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevQuiz</title>
-    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="css/styleform.css">
 </head>
 <body>
     <main>
@@ -44,15 +44,15 @@
             </ol>
         </fieldset>
         <br>
-        <form action="finalJava.html">
-            <input type="submit" value="Finalizar Teste" />
+        <form  id="btnIdFinalJava" action="finalJava.html">
+            <input type="button" onclick="btnFinalJava()" value="Finalizar Teste" />
         </form>
-        <form action="index.html">
-            <input type="submit" value="Voltar" />
+        <form id="btnHome" action="index.html">
+            <input type="button" onclick="btnHome()" value="Voltar" />
         </form>
     </main>
     
-    
+    <script type="text/javascript" src="js/script.js"></script>
     
 </body>
 </html>
